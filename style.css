@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+    background-color: #d5d5d5;
+}
+
+.secao-topo {
+    border-bottom: 0.2em solid #d5d5d5;
+}
+
+.secao-largura-limitada {
+    width: 50rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0   ;
+}
+
+.secao-topo p {
+    padding: 0.8em;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.secao-background-capa,
+.img-conteudo,
+.secao-background-divisao {
+    filter: drop-shadow(0.5em 0.5em 0.5em #111);
+}
+
+.secao-background-capa {
+    min-height: 31rem;
+    background-image: url("./assets/img/capa.jpg");
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    padding: 3rem 1rem;
+}
+
+.secao-conteudo {
+    padding: 3rem 1rem;
+}
+
+.img-conteudo {
+    width: 15.6rem;
+    height: 11.1rem;
+    padding: 0.2em;
+}
+
+.secao-conteudo span {
+    border-left: 0.085em solid;
+    padding-left: 0.5em;
+    font-size: 1.25em;
+}
+
+.secao-background-divisao {
+    padding: 3.15rem 0;
+    text-align: center;
+    background-image: url("./assets/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-background-divisao h3 {
+    font-size: 2.25em;
+    background-color: #fff;
+    width: 12.5rem;
+    margin: 0 auto;
+    border-radius: 1.5em;
+}
+

@@ -4,17 +4,29 @@ body {
     background-color: #d5d5d5;
 }
 
+h1, h2, h3 {
+    margin: 0   ;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 70rem) {
+    main {
+        max-width: 100rem;
+    }
+}
+
 .secao-topo {
     border-bottom: 0.2em solid #d5d5d5;
 }
 
 .secao-largura-limitada {
     width: 50rem;
+    max-width: 80%;
     margin: 0 auto;
-}
-
-h1, h2, h3 {
-    margin: 0   ;
 }
 
 .secao-topo p {
@@ -46,7 +58,8 @@ h1, h2, h3 {
 
 .img-conteudo {
     width: 15.6rem;
-    height: 11.1rem;
+    max-width: 100%;
+    height: auto;
     padding: 0.2em;
 }
 

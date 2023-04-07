@@ -13,9 +13,13 @@ main {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 70rem) {
+@media screen and (min-width: 75rem) {
     main {
-        max-width: 100rem;
+        max-width: 62.5rem;
+    }
+
+    .secao-background-divisao {
+        max-width: 62.5rem;
     }
 }
 

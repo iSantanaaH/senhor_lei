@@ -2,10 +2,17 @@ body {
     margin: 0;
     font-family: "Fredoka", sans-serif;
     background-color: #d5d5d5;
+    transition: all 0.3 ease-in-out;
 }
 
 h1, h2, h3 {
     margin: 0   ;
+}
+
+p {
+    line-height: 1.5em;
+    font-style: italic;
+    font-size: 1.2em;
 }
 
 main {
@@ -15,12 +22,9 @@ main {
 
 @media screen and (min-width: 75rem) {
     main {
-        max-width: 62.5rem;
+        max-width: 100%;
     }
 
-    .secao-background-divisao {
-        max-width: 62.5rem;
-    }
 }
 
 .secao-topo {
@@ -36,6 +40,7 @@ main {
 .secao-topo p {
     padding: 0.8em;
     font-size: 1.4em;
+    font-style: italic;
     font-weight: bold;
 }
 
@@ -89,4 +94,5 @@ main {
     margin: 0 auto;
     border-radius: 1.5em;
 }
+
 
